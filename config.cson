@@ -1,0 +1,10 @@
+"*":
+  "chrome-color-picker":
+    General: {}
+  core:
+    telemetryConsent: "limited"
+  editor: {}
+  "exception-reporting":
+    userId: "79e09ace-3ee8-069d-f834-0091390234f0"
+  "tree-view":
+    showOnRightSide: true

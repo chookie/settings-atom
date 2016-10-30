@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+        "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116928-49418-bc4kj0"
+    ]
+  ],
+  "_from": "../d-116928-49418-jtt6fv/package.tgz",
+  "_id": "atom-bugs@0.19.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-bugs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+    "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116928-49418-jtt6fv/package.tgz",
+  "_shasum": "223cb8c6765c048dad62aa155844914ae4381999",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-49418-jtt6fv/package.tgz",
+  "_where": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116928-49418-bc4kj0",
+  "author": {
+    "name": "Williams Medina",
+    "email": "williams.medinaa@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/willyelm/atom-bugs/issues"
+  },
+  "dependencies": {
+    "chokidar": "^1.6.0",
+    "lodash": "^4.14.1",
+    "ws": "^1.1.1"
+  },
+  "description": "A Simple Javascript Debugger for Atom",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "http-server": "^0.9.0",
+    "standard": "^7.1.2"
+  },
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "homepage": "https://github.com/willyelm/atom-bugs#readme",
+  "keywords": [
+    "javascript",
+    "debugger",
+    "debug",
+    "atom",
+    "repl",
+    "bugs",
+    "chrome",
+    "browser",
+    "willyelm",
+    "node",
+    "breakpoint",
+    "console"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "atom-bugs",
+  "optionalDependencies": {},
+  "readme": "[![apm](https://img.shields.io/apm/v/atom-bugs.svg?style=flat-square)](https://atom.io/packages/atom-bugs)\n[![standard](https://img.shields.io/badge/code%20style-standard-yellow.svg?style=flat-square)](http://standardjs.com/)\n[![apm](https://img.shields.io/apm/l/atom-bugs.svg?style=flat-square)](https://github.com/willyelm/atom-bug/blob/master/LICENSE.md)\n\nAtom Bugs\n---\n`Atom Bugs` is a super simple Javascript debugger for Atom\n\n![overview](https://raw.githubusercontent.com/willyelm/atom-bugs/master/resources/images/overview.png)\n\n## Features\n\n- In Atom editor `quick breakpoints`. Simply open the file and click on the line number to toggle the breakpoint.\n\n![breakpoint](https://raw.githubusercontent.com/willyelm/atom-bugs/master/resources/images/breakpoint.png)\n\n- `Open file reference` on the line where it did break. from the debug console by just clicking on the file path.\n\n![file](https://raw.githubusercontent.com/willyelm/atom-bugs/master/resources/images/file.png)\n\n- Use the console input and word selector to evaluate expressions(`REPL`) on the current frame.\n\n![repl](https://raw.githubusercontent.com/willyelm/atom-bugs/master/resources/images/repl.png)\n\n- `Schemes` configurator by project. using the scheme editor you can specify wherever you want to run from a remote or specific target script.\n\n![scheme](https://raw.githubusercontent.com/willyelm/atom-bugs/master/resources/images/scheme.png)\n\n- And much more :)\n\n## Schemes\n\nThe scheme editor is current limited to specify port, address, script and binary target. I will add args and env variables configuration in the next version.\n\n## Feedback\n\nThis package is under development please use the following link: [Atom Bugs Issues](https://github.com/willyelm/atom-bugs/issues/new)\nto report issues, ask questions or improvements.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willyelm/atom-bugs.git"
+  },
+  "scripts": {
+    "test": "http-server -a localhost -p 3000 -c-1 ./tests"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "version": "0.19.9"
+}

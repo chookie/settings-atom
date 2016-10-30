@@ -1,0 +1,3 @@
+node_modules
+resources/data/*
+!resources/data/schemes.json
