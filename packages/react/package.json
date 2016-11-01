@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
+        "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
-        "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
+        "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
+        "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116928-48254-1vq6vzd"
+      "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116930-63942-186c86k"
     ]
   ],
-  "_from": "../d-116928-48254-gq1g80/package.tgz",
+  "_from": "../d-116930-63942-xwwxrf/package.tgz",
   "_id": "react@0.16.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/react",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
+    "raw": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
-    "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
+    "rawSpec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
+    "spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116928-48254-gq1g80/package.tgz",
+  "_resolved": "file:../d-116930-63942-xwwxrf/package.tgz",
   "_shasum": "3bf61d07cda6a852758c7494e83b5686c50b6937",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116928-48254-gq1g80/package.tgz",
-  "_where": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116928-48254-1vq6vzd",
+  "_spec": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/d-116930-63942-xwwxrf/package.tgz",
+  "_where": "/private/var/folders/ll/bpzr0hmn3wgfszjckhqc4lyr0000gn/T/apm-install-dir-116930-63942-186c86k",
   "bugs": {
     "url": "https://github.com/orktes/atom-react/issues"
   },

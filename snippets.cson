@@ -19,7 +19,8 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-'.source.js':
+# https://github.com/atom/language-javascript/blob/master/snippets/language-javascript.cson
+'.source.js, .source.jsx':
   'Console log':
     'prefix': 'log'
     'body': 'console.log $1'
@@ -29,11 +30,18 @@
   'React.createClass':
     'prefix': 'React.createClass'
     'body': """
+      var React = require('react');
+
       var $1 = React.createClass({
         render: function() {
           return(
             $2
-          )
+          );
         }
       });
+
+      module.exports = $1;
       """
+  'require':
+    'prefix': 'require'
+    'body': 'var $1 = require(\'$2\');'

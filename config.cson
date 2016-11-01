@@ -4,7 +4,10 @@
   core:
     telemetryConsent: "limited"
   editor: {}
+  emmet: {}
   "exception-reporting":
     userId: "79e09ace-3ee8-069d-f834-0091390234f0"
   "tree-view":
     showOnRightSide: true
+  welcome:
+    showOnStartup: false
